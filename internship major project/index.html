@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./windex.css">
+</head>
+<body>
+    <div id="header" align="center">
+        <h3 >Parking Lot Management system</h3>
+    </div>
+    </br></br></br>
+    <div id="container">
+    <h4 align="center">Add Car to Parking Lot</h4>
+    </br> 
+    <div id="bginpt">
+    <h5>Customer</h5>
+    <input type="text" id="cname">
+    <h5>Car</h5>
+    <input type="text" id="carname">
+    <h5>License Plate</h5>
+    <input type="text" id="lsplate">
+    </div>
+    <div id="smlinpt"style="display:flex ;">
+    <div >
+    <h5 >Entry</h5>
+    <input type="date" id="edate">
+    </div>
+    <div >
+    <h5 >Exit Date</h5>
+    <input type="date" id="extdate">    
+    </div>
+    </div>
+    </br>
+    <div align="center">
+        <button type="button" id="add" class="btn btn-outline-primary">Add Car</button>
+    </div>
+    <h4>Enter the lisence of the car to remove</h4>
+    <input type="text" id="rmvlsc">
+    <button type='button' id='remove' class='btn btn-outline-primary'>Remove</button>
+    </br>
+    <h4 align="center">List of Cars in Parking Lot</h4>
+    <h4>Enter the lisence of the car to remove</h4>
+    <input type="text" placeholder="Search" id="srchlsc">
+    <button type='button' id='srch' class='btn btn-outline-primary'>Search</button>
+    <table id="tabl">
+        <tr>
+            <th scope="col">Owner</th>
+            <th scope="col">Car</th>
+            <th scope="col">License Plate</th>
+            <th scope="col">Entry Date</th>
+            <th scope="col">Exit Date</th>
+        </tr>
+        <tr>
+            <td id="d1ownr"></td>
+            <td id="d1car"></td>
+            <td id="d1lp"></td>
+            <td id="d1ed"></td>
+            <td id="d1exd"></td>
+        </tr>
+    
+    </table>
+    </br>
+    
+    <div>
+    <div id="footer" >
+        <h3 style="text-align:end">-Done by Harishankar M</h3>
+    </div>
+    <script src="./script.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    background-image:url("./images/gtr.jpg");
+}
+h3{
+    margin:0;
+    
+    }
+#header
+{background-image:linear-gradient(to right,white,rgb(154, 239, 254));
+margin:0;
+position: fixed;
+z-index:3;
+opacity: 0.8;
+height:50px;
+width:100%;
+}
+
+#container
+{
+    padding:0rem 5rem;
+}           
+#bginpt > input{
+    width:95%;
+}
+#smlinpt >div{
+    width:90%; 
+}
+table{
+    border:2px solid black;
+}
+
+#tabl{
+    width: 100%;
+}
+tr,td
+{
+    color:greenyellow;
+}
